@@ -25,6 +25,7 @@ while(opcion !=5):
     print("5. terminar programa")
     print(("\nseleciona la opcion deseada[1-5]"))
     opcion = int(input("\nseleciona la opcion deseada[1-5]"))
+
     if opcion ==1:
         #suma de dos numeros
         n1=float(input("\nIngresa el primer numero a sumar"))
@@ -49,7 +50,12 @@ while(opcion !=5):
         n2=float(input("\ningresa el divisor"))
         print(f"cociente resultante{division(n1,n2)}")
 
-    elif opcion == 5:
+    elif opcion == 5:print(f"resultado de la suma{suma(n1,n2)}")
+
+    elif opcion == 2:
+        #resta de 2 numeros 
+        n1=float(input("\nIngresa el minuendo"))
+        
         #finalizacion del rograma 
         print("programa finalizado...")
 
