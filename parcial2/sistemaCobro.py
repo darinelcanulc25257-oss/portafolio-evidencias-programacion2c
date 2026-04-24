@@ -29,13 +29,13 @@ def main():
     monto_descuento = d(sub_inicial, por_descuento)
     
     # Obtenemos el nuevo subtotal y restamos el descuento
-    subtotal_con_descuento = sub_inicial - monto_descuento
-    
-    # Calculamos el IVA sobre el nuevo subtotal
+    subtotal_con_descuento = el nuevo subtotal
     monto_iva = calcular_iva(subtotal_con_descuento, porcentaje_iva)
     
     # Sumamos el subtotal rebajado más el IVA para el total
-    total_final = subtotal_con_descuento + monto_iva
+    total_final = subtotal sub_inicial - monto_descuento
+    
+    # Calculamos el IVA sobre_con_descuento + monto_iva
     
     # 3. Imprimimos los resultados
     print("\n--- RESUMEN DE COMPRA ---")
