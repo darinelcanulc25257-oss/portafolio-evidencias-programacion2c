@@ -2,7 +2,7 @@
 
 def d(subtotal, porcentaje):
     """
-    Calcula el monto de dinero a descontar.
+    Calcula el monto del dinero a descontar.
     Multiplica el subtotal por el porcentaje (ej. 15) dividido entre 100.
     """
     return subtotal * (porcentaje / 100)
@@ -24,11 +24,11 @@ def main():
     por_descuento = float(input("Ingrese el porcentaje de descuento: "))
     porcentaje_iva = 0.16
     
-    # 2. Procesamiento de la información usando las funciones
+    # 2. Procesamos la información usando las funciones
     # Calculamos cuánto se descuenta
     monto_descuento = d(sub_inicial, por_descuento)
     
-    # Obtenemos el nuevo subtotal restando el descuento
+    # Obtenemos el nuevo subtotal y restamos el descuento
     subtotal_con_descuento = sub_inicial - monto_descuento
     
     # Calculamos el IVA sobre el nuevo subtotal
@@ -37,7 +37,7 @@ def main():
     # Sumamos el subtotal rebajado más el IVA para el total
     total_final = subtotal_con_descuento + monto_iva
     
-    # 3. Despliegue de resultados (El Ticket)
+    # 3. Imprimimos los resultados
     print("\n--- RESUMEN DE COMPRA ---")
     print("Descuento aplicado: $", monto_descuento)
     print("Subtotal neto:      $", subtotal_con_descuento)
