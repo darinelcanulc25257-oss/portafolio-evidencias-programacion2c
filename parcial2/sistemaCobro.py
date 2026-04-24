@@ -1,5 +1,4 @@
 #---funciones(Modulo)
-# --- FUNCIONES ---
 
 def d(subtotal, porcentaje):
     """
@@ -52,5 +51,4 @@ def main():
     input("Presione ENTER para salir...")
 
 # Llamada a la función principal para que el código se ejecute
-if __name__ == "__main__":
 main()
