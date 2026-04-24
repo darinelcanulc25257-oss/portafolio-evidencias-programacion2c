@@ -99,7 +99,7 @@ def mostrar_ticket(precio, cantidad, desc_porc, iva_porc):
     print(f"TOTAL A PAGAR: ${total_final}")
     print("------------------------\n")
 
-def menu():
+def main():
     while True:
         print("=== MENÚ SISTEMA DE COBRO ===")
         print("1. Calcular nuevo ticket")
@@ -125,4 +125,5 @@ def menu():
             print("Opción inválida. Elige 1 o 2.\n")
 
 # Iniciar el programa
-menu()
+if __name__ == "__main__":
+    main()
