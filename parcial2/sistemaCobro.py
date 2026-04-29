@@ -29,11 +29,11 @@ def main():
     monto_descuento = d(sub_inicial, por_descuento)
     
     # Obtenemos el nuevo subtotal y restamos el descuento
-    subtotal_con_descuento = el nuevo subtotal
+    subtotal_con_descuento = subtotal - monto_descuento
     monto_iva = calcular_iva(subtotal_con_descuento, porcentaje_iva)
     
     # Sumamos el subtotal rebajado más el IVA para el total
-    total_final = subtotal sub_inicial - monto_descuento
+    total_final = subtotal=sub_inicial - monto_descuento
     
     # Calculamos el IVA sobre_con_descuento + monto_iva
     
@@ -49,6 +49,5 @@ def main():
     # Simplemente pedimos un input final. Al presionar Enter, 
     # el programa termina porque no hay más instrucciones.
     input("Presione ENTER para salir...")
-
 # Llamada a la función principal para que el código se ejecute
 main()
